@@ -1,0 +1,52 @@
+1 - Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o 
+erro que foi introduzido?
+
+A visualização de um diff entre duas versoes ajuda o programador a economizar tempo, o 
+mesmo processo pode ser feito manualmente, mas isso demandaria muito tempo em projetos
+maiores
+
+2 - Como poderia ter acesso fácil a todo o histórico de um arquivo para torná-lo um 
+programador mais eficiente a longo prazo?
+
+Aplicativos como Dropbpx (porem só quando estiver online) e Github ajudam o programador a
+terem todos seus arquivos salvos e seguros
+
+3 - O que você acha que são os prós e contras de escolher manualmente quando criar um
+commit, como você faz no Git, vs tendo versões salvas automaticamente, como o Google
+docs faz?
+
+prós: voce tera acesso offline e o documento é salvo automaticamente em um determinado
+periodo de tempo;
+contra: a escolha manual possa ser trabalhosa, terá que ficar salvando sempre; 
+no git tem acesso offline e acesso a todos as editaçoes feitas em um unico commit.
+
+4 - Por que você acha que alguns sistemas de controle de versão, como o Git, permitem 
+salvar múltiplos arquivos em um commit, enquanto outros, como o Google Docs, tratam cada 
+arquivo separadamente?
+
+O Git pode ser usado como um sistema local de gerenciamento, incluindo a migração de 
+outros sistemas de controle de versão, você vê ao navegar on-line, cada commit tem um 
+identificador exclusivo e é possível reverter para qualquer commit.
+Já o google docs lida somente com arquivos do mesmo tipo, permitindo comparacoes
+apenas entre estes casos.
+
+5 - Como você pode usar os comandos git log e git diff para ver o histórico dos arquivos?
+
+Git log: ele basicamente lista os commits do repositório de uma forma bem visual, com 
+cores e gráficos ele permite o acesso aos antigos commits
+Git diff: Rodando este comando, você pode ver informações gerais sobre as alterações 
+feitas em um commit para descobrir o que foi modificado entre as versoes.
+
+6 - Como o uso do controle de versão pode torná-lo mais confiante para fazer alterações 
+que poderia quebrar alguma coisa?
+
+Por gerenciar mudança, avisar se teve mudança em determinado arquivo, quem fez 
+tal mudança, quando esta foi feita e, idealmente, porque esta alteração foi implementada,
+entre outras funcionalidades associadas à segurança e organização de arquivos e suas 
+versões. Com o git checkout voce consegue recuperar, comparar e voltar às versoes antigas
+
+7 - Agora que você tem seu espaço de trabalho configurado, o que você quer tentar usar o 
+Git?
+
+Facilitar, melhorar/organizar os meus trabalhos de programação, alem de facilitar o 
+processo de leitura e comparaçao dos textos. 

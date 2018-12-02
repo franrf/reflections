@@ -1,0 +1,48 @@
+1 - Quando você gostaria de usar um repositório remoto em vez de manter todo o seu trabalho
+local?
+
+Quando estiver trabalhando com outras pessoas (para fazer o trabalho em grupo ou
+compartilhar com outros).
+
+2 - Por que você prefere efetuar pull de alterações manualmente do que deixar o Git 
+atualizar-se automaticamente com o seu repositório remoto?
+
+Porque eu posso ter um maior controle sobre os arquivos que serao compartilhados e 
+guardados no meu repositorio.
+
+3 - Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e 
+não os outros?
+
+Bifurcação: cria uma cópia do repositório de outra pessoa em sua conta. Usaria algum 
+projeto existente para adicionar como uma base para outros projetos mais aprofundados. 
+
+Clone: copia o historico de um repositorio em  sua máquina local. Usaria em algum arquivo
+que demandaria mais trabalho e cuidado, como um desenvolvimento de um programa extenso.
+
+Branches: permite que você faça alterações no projeto sem alterar o projeto principal, 
+serve para criar novos caminhos. Usaria apenas para teste (com algumas funçoes novas).
+
+4 - Qual é o benefício de ter uma cópia do último estado conhecido do controle remoto
+armazenado localmente?
+
+O benefício é que ao trabalhar com outras pessoas onde elas têm acesso a ediçao do
+programa (trabalho) feito, pode fazer qualquer alteraçao e que por essa copia pode-se ver
+o que foi feito, armazenando nesse repositorio.
+
+5 - Como você colaboraria sem usar o Git ou o GitHub? O que seria mais fácil e o que 
+seria mais difícil?
+
+Para colaborar sem usar o Git ou o GitHub eu precisaria utilizar o google docs, porém 
+ele é usado apenas para edição de textos, o que nao seria muito util para quem mexe com
+programas. Usando o Git e o GitHub, por mais que seja um pouco complicado de usá-lo, é 
+bem mais facil e proprio pro tipo de arquivo que pretendo colocar, mantendo meus projetos 
+organizados e legiveis.
+
+6 - Quando você gostaria de fazer alterações em um ramo separado em vez de diretamente em
+mestre? Quais os benefícios de cada abordagem?
+
+Eu gostaria de fazer alterações em um ramo separado quando o programa que estou trabalhando
+necessita de varias revisoes e mudanças e nao necessariamente precisa dessas alteraçoes 
+funcionando (testes) no projeto principal. Manter o projeto organizado, tendo controle de
+escolher qual versão ou alteração eu quero incluir no meu projeto mesmo 
+que seja mais complexo de desenvolvê-lo.

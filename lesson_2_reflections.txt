@@ -1,0 +1,51 @@
+1 - O que acontece quando você inicializa um repositório? Por que você precisa fazer 
+isso?
+
+Ao iniciar um repositorio, você cria uma pasta .git em seu diretorio. Ele permite 
+armazenar versões antigas dos arquivos e é necessario para que possa utilizar
+ferramentas que comparam essas versoes
+
+2 - Como a área de preparação é diferente do diretório de trabalho e do repositório?
+Qual valor você acha que oferece?
+
+A area de preparaçao é a transição entre os dois (os arquivos do diretório de trabalho 
+são colocados lá e depois enviados para o repositório), ela permite escolher quais 
+arquivos serão incluidos no proximo commit. Se o arquivo conter o mesmo assunto do
+commit salvo ele acrescenta à esse commit, nao precisando salvar novamente, todo 
+repositorio
+
+3 - Como você pode usar a área de preparação para garantir que você tenha um commit por 
+alteração lógica?
+
+Verificando as ultimas alteraçoes, mas ainda mantendo a segurança de ter uma versao
+recente salva.
+
+4 - Quais são algumas situações em que os branches seriam úteis para manter seu histórico
+organizado? Como os branches ajudariam?
+
+São situações em que o projeto tem algumas alterações extras, ou para testar coisas 
+diferentes como algum recurso novo. Os branches mantem o projeto mais organizado e fácil
+para corrigir, pode-se fazer essas alteracoes paralelas sem que o resto do programa 
+principal seja alterado
+
+5 - Como os diagramas ajudam você a visualizar a estrutura de branches?
+
+Os diagramas ajudam a visualizar qual dos branches é o principal ou apenas um anexo, 
+facilitando a visualização em que foram criados ou as probabilidades de cada commit ou 
+branche conter algo particular.
+
+6 - Qual é o resultado da mesclagem de dois branches? Por que representamos isso no
+diagrama dessa maneira?
+
+O resultado da mesclagem de dois branches é tornar os dois um com a ponta de cada branche
+sendo um pai para a mesclagem, dessa forma comandos como git log mostrará commits de 
+ambos os branches.
+
+7 - Quais são os prós e contras da mesclagem automática do Git vs. sempre fazendo 
+mesclagens manualmente?
+
+Prós: economia de tempo usando a mesclagem automática e tornando possível a utilização 
+do git log para ver todas as mudanças feitas no programa.
+
+Contras: Podem ocorrer possíveis erros de compilação e em alguns conflitos terá que ser
+resolvido manualmente
